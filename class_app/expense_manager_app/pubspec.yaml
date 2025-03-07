@@ -1,0 +1,30 @@
+name: expense_manager_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0-209.1.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+  syncfusion_flutter_charts: ^28.2.4+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/flash.png
+    - assets/Bumrah.png
+    - assets/transaction.png
+    - assets/graphs.png
+    - assets/category.png
+    - assets/trash.png
+    - assets/aboutUs.png
+
+
